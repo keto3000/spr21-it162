@@ -27,6 +27,4 @@
     </ul>
   </nav>
 </header>
-<!-- END Header --> 
- 
-     
+<!-- END Header -->
