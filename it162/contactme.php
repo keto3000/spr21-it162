@@ -1,6 +1,5 @@
 <?php include "includes/header.php";?>
 
-  <h2 class="subheader">CONTACT FORM</h2>
     <?php
         /*
          * Below are 2 different forms to be re-used       

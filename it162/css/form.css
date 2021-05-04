@@ -45,7 +45,7 @@ legend {
 
 /* keeps form from bunching up to left */
 @media all and (min-width:501px) {
-  div.wrapper form{
+  main.wrapper form{
       margin-left:22.8px;
 
   }

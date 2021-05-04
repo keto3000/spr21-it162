@@ -1,8 +1,5 @@
 <?php include "includes/header.php";?>
           
-<!-- START LEFT COL -->
-<section>
-  <h2 class="pageID">Welcome</h2>
     <img src="images/desktop.jpg" class="desktop" alt="Doorway with heart graffiti and quote" />
     <img src="images/phone.jpg" class="phone" alt="" />
  
