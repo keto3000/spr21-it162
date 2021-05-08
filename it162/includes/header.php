@@ -20,14 +20,16 @@
   <nav1>
     <ul class="topnav" id="myTopnav">
     <?=makeLinks($nav1)?>
-  <!--
+  
+  <!-- START COMMENT OUT NAV
       <li><a href="index.php" class="selected">Home</a></li>
       <li><a href="big/index.php">BIG</a></li>
       <li><a href="aia.php">AIA</a></li>
       <li><a href="flowchart.php">Flowchart</a></li>
       <li><a href="fp/index.php">Final Project</a></li>
       <li><a href="contactme.php">Contact</a></li>
-  -->
+  END COMMENT OUT NAV -->
+
       <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
     </ul>
   </nav1>

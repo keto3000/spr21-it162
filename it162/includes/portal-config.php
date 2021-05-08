@@ -21,13 +21,13 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 switch(THIS_PAGE) {
 
     case 'index.php':
-        $title = 'Keith Scarmato: IT162 Portal Website';
-        $logo = ' fa-globe';
+        $title = "Keith Scarmato: IT162 Portal Website";
+        $logo = 'fa-globe';
         $pageID = 'Welcome';
     break;
 
     case 'big/index.php':
-        $title = 'Keith Scarmato: Web Developer Resources & Examples';
+        $title = "Keith Scarmato: Web Developer Resources & Examples";
         $logo = 'fa-institution';
         $pageID = 'My BIG project website!';
     break;
@@ -59,16 +59,16 @@ switch(THIS_PAGE) {
     default:
         $title = THIS_PAGE;
         $logo = ''; //no icon by default 
-        $pageID = 'Welcome';
+        $pageID = "Welcome";
     }
 
 
-$nav1[index.php] = 'Home';
-$nav1[big/index.php] = 'BIG';
-$nav1[aia.php] = 'AIA';
-$nav1[flowchart.php] = 'Flowchart';
-$nav1[fp/index.php] = 'Final Project';
-$nav1[contactme.php] = 'Contact';
+$nav1['index.php'] = "Home";
+$nav1['big/index.php'] = "BIG";
+$nav1['aia.php'] = "AIA";
+$nav1['flowchart.php'] = "Flowchart";
+$nav1['fp/index.php'] = "Final Project";
+$nav1['contactme.php'] = "Contact";
 
 
 /*
