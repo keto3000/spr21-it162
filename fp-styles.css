@@ -1,0 +1,76 @@
+/* ++++++global styles for it162-fp  TAYLOR RENOVATIONS css styles +++++ */
+
+/* color scheme:  */
+
+/* type font Belgrano */
+
+@import url(https://fonts.googleapis.com/css2?family=Belgrano);
+
+html {
+    background-color:#ccc;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+main.wrapper {
+    background-color:#fff;
+    overflow:auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1>a {
+    text-decoration: none;
+    color:#000;
+}
+
+.logo {
+    color:#2e1c0b;
+    margin-left:1%;
+    text-shadow:1px 1px #ccc;
+    font-size:1.25em;
+}
+
+h2, h3 {
+    text-align: center;
+} 
+
+h3  {
+    font-size: 1.2em;
+    margin-top: 1.5em; 
+}
+
+#about {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+#about>p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#testimonials>p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer {
+	clear:both;
+}
+
+
+
+
+
+
+	 
+    
+    
+
