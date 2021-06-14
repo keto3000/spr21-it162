@@ -1,7 +1,7 @@
 <?php
 
 /*
-portal-config.php
+big-config.php
 
 Used to store all of our it162 configuration information
 */
