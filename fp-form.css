@@ -1,8 +1,10 @@
 /* start reCAPTCHA styles */
 
-/* form>div {
-    margin:1em;
-} */
+form>div {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
 
 /* writes to small text above reCAPTCHA upon failure */
 
@@ -50,11 +52,15 @@ textarea {
   resize: none; /* user can resize vertically, but width is fixed */
 }
 
-#rc-anchor-container {
+/* #rc-anchor-container {
   margin-left: 5px;
-}
+} */
 
 /* end reCAPTCHA styles */
+
+fieldset {
+  margin: 0 auto;
+}
 
 /* keeps form from bunching to left */
 @media all and (min-width:501px) {
@@ -62,4 +68,3 @@ textarea {
       margin-left:22.8px;
   }
 }
-

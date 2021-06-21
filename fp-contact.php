@@ -1,7 +1,7 @@
 <?php include "includes/header.php";?>
 
 <div id="contact-left">
-<h3> Contact Us!</h3>
+<h3> Email Us!</h3>
 
  <?php
         /*
@@ -27,12 +27,11 @@
 
 <!-- START RIGHT COL -->
 <div id="contact-right">
-        <h3>If you would like to work with us, send us your contact information or call us at:</h3>
-                <h2>TAYLOR RENOVATIONS</h2>
-                <h2>Tel: 555-444-5555</h2>
+        <h3>Send us your contact information or call us at:</h3>
+        <a href="tel:555-444-4545"><h2>TAYLOR RENOVATIONS<br>555-444-4545</h2></a>
 <div id="map">
         <h3> We serve the Mason County, WA area</h3>
-        <img src="images/fp-contact/mapofMasoncounty350x182.jpg" alt="Google map of Mason county, WA area" />
+        <img src="images/fp-contact/mason-county-map350x350.jpg" alt="Google map of Mason county, WA area" />
 </div>
      
 </div>
