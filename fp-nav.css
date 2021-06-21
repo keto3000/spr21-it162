@@ -2,12 +2,24 @@
 /* my it162 fp-nav CSS Document */
 
 /* Remove margins and padding from the list, and add a background color */
+
+/* color scheme: eggplant #372f43  olive-tan #5d4632  sienna brown #7e3a04 */
+
+/* nav links: tan #b18868  bkgrd hover: #f2ebe5    selected state of page: whitesmoke  */
+
+
+
+#topnav {
+  background-color: #7e3a04;
+}
+
 ul.topnav {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
+    width: 40%;
     padding: 0;
     overflow: hidden;
-    background-color: peru;
+    background-color: #7e3a04;
 }
 
 /* Float the list items side by side */
@@ -16,7 +28,7 @@ ul.topnav li {float: left;}
 /* Style the links inside the list items */
 ul.topnav li a {
     display: inline-block;
-    color: rgb(37, 21, 5);
+    color: #b18868;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -25,13 +37,46 @@ ul.topnav li a {
 }
 
 /* Change background color of links on hover */
-ul.topnav li a:hover {background-color: rgb(235, 218, 202);}
+ul.topnav li a:hover {
+  background-color: #f2ebe5;
+}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
+ul.topnav li.icon {
+  display: none;
+}
 
-/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
-@media screen and (max-width:680px) {
+/* Change background color of navigation on selected page */
+ul.topnav li a.selected {
+  background-color: whitesmoke;
+  color:#b18868;
+}
+
+
+/* +++++++++++++++RESPONSIVE STYLES */
+
+@media screen and (max-width: 1392px) and (min-width: 1117px) {
+
+  ul.topnav {
+    width: 50%;
+  } 
+}
+
+@media screen and (max-width: 1116px) and (min-width: 803px) {
+  ul.topnav {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 802px) and (min-width: 567px) {
+  ul.topnav {
+    width: 100%;
+  }
+}
+
+/* When the screen is less than 567 px wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+
+@media screen and (max-width:566px) {
   ul.topnav li:not(:first-child) {display: none;}
   
   ul.topnav li.icon {
@@ -41,9 +86,8 @@ ul.topnav li.icon {display: none;}
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-
-@media screen and (max-width:680px) {
  
+@media screen and (max-width:566px) {
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
@@ -58,13 +102,7 @@ ul.topnav li.icon {display: none;}
 
   ul.topnav.responsive li a {
     display: block;
-    text-align: left;
+    text-align: center;
   }
 
-}
-
-/* Change background color of navigation on selected page */
-ul.topnav li a.selected {
-  background-color: #ccc;
-  color:#000;
-}
+} 

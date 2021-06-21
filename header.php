@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="css/fp-nav.css" />
     <link rel="stylesheet" href="css/fp-styles.css" />
     <link rel="stylesheet" href="css/slider-index.css" />
-    <!-- <link rel="stylesheet" href="css/sliders-services.css" /> -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/fp-form.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/eggplant/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   </head>
 
   <body>
@@ -20,7 +22,9 @@
   <main class="wrapper">
 <header>
   <h1><a href="fp-index.php"><i class="logo fa <?=$logo?>"></i>Taylor Renovations</a></h1>
-  <nav1>
+  <a href="tel:555-444-4545"><h2>Call for FREE Estimate!<br>555-444-4545</h2></a>
+
+  <nav id="topnav">
     <ul class="topnav" id="myTopnav">
     <?=makeLinks($nav1)?>
   
@@ -34,7 +38,7 @@
 
       <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
     </ul>
-  </nav1>
+  </nav>
 </header>
 
 <h2 class="pageID"><?=$pageID?></h2>

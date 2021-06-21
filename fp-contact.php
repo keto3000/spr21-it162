@@ -1,6 +1,8 @@
 <?php include "includes/header.php";?>
 
 <div id="contact-left">
+<h3> Contact Us!</h3>
+
  <?php
         /*
          * Below are 2 different forms to be re-used       

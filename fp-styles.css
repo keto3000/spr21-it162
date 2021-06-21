@@ -1,10 +1,17 @@
 /* ++++++global styles for it162-fp  TAYLOR RENOVATIONS css styles +++++ */
 
-/* color scheme:  */
+/* color scheme: idgo-purple #3a047e  olive-tan #5d4632  sienna brown #7e3a04 */
+/* nav links: tan #b18868  bkgrd hover: #f2ebe5    selected state of page: whitesmoke  */
 
-/* type font Belgrano */
+/* alternative type font Belgrano */
+/* @import url(https://fonts.googleapis.com/css2?family=Belgrano); */
 
-@import url(https://fonts.googleapis.com/css2?family=Belgrano);
+/* type font: Vollkorn for title, h1, h2, h3 */
+/* type font Karla, sans-serif for p text */
+
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;700;800;900');
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800');
 
 html {
     background-color:#ccc;
@@ -21,51 +28,138 @@ main.wrapper {
 }
 
 h1 {
+    font-family: Vollkorn, serif;
     text-align: center;
+    color: #7e3a04;
 }
 
 h1>a {
     text-decoration: none;
-    color:#000;
+    color: #7e3a04;
+}
+
+
+a {
+    text-decoration: none;
+   
 }
 
 .logo {
-    color:#2e1c0b;
+    color:#3a047e;
     margin-left:1%;
     text-shadow:1px 1px #ccc;
     font-size:1.25em;
 }
 
 h2, h3 {
+    font-family: Vollkorn, serif;
     text-align: center;
+    text-decoration: none;
 } 
+
+h2 {
+    color: #3a047e;
+}
 
 h3  {
     font-size: 1.2em;
-    margin-top: 1.5em; 
+    margin-top: 1.5em;
+    color: #3a047e; 
 }
 
-#about {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 50%; */
-}
-#about>p {
-    text-align: center;
+p {
+    font-family: Karla, sans-serif;
+    width: 30%;
     margin: 0 auto;
-}
-
-#testimonials>p {
     text-align: center;
-    margin: 0 auto;
-}
+ }
 
 footer {
-	clear:both;
+    clear:both;
+    height: 50px;
+    background-color: #7E3A04;
+}
+
+#ftr {
+    color: #b18868;
+    font-size: .75em;
+    padding: 1em;
+}
+
+footer a:link {
+    color: #b18868;
 }
 
 
+/* +++HOME PAGE+++++ */
+#mission p{
+    margin-bottom: 20px;
+}
+
+
+/* ++++ABOUT PAGE +++++++ */
+#about img {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+ }
+
+ #about p {
+    margin-bottom: 20px;
+ }
+
+
+ /* ++++SERVICES PAGE +++++++ */
+ #tabs {
+     text-align: center;
+ }
+
+ #tabs ul {
+     list-style-type: none;
+ }
+
+ #tabs ul li {
+     font-family: Vollkorn;
+     font-size: 40x;
+     font-weight: 900;
+ }
+
+#tabs ul li img {
+    width: 30%;
+}
+ 
+
+/* +++++CONTACT PAGE ++++++++ */
+#contact-left {
+    float: left;
+    width: 50%;
+    height: 740px;
+    margin: 0 auto;
+    background-color: #be9c81;
+    margin-bottom: 20px;
+    
+}
+
+#contact-right {
+    float: right;
+    width: 50%;
+    height: 740px;
+    margin: 0 auto;
+    background-color: #d8c3b3;
+    margin-bottom: 20px;
+}
+
+#map {
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+ /* TESTIMONIALS PAGE+++++++ */
+ #testimonials p{
+     margin-bottom: 20px;
+     padding-bottom: 10px;
+     border-bottom: 1.5px solid #7e3a04;  
+ }
 
 
 

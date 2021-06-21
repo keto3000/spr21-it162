@@ -1,6 +1,6 @@
 <!-- START Footer -->
 <footer>
-  <p><small>&copy; 2021 - <?=date('Y')?> by <a href="contact.php" target="_blank">Taylor Renovations</a>, All Rights Reserved ~ Developed by keto3kdesigns. <a href="https://validator.w3.org/nu/?doc=https://scc.keto3kdesigns.com/it162/" target="_blank">Check HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+  <div id="ftr"><p><small>&copy; 2021 - <?=date('Y')?> by <a href="contact.php" target="_blank">Taylor Renovations</a>, ~ All Rights Reserved ~ Developed&nbsp;by&nbsp;keto3kdesigns. <a href="https://validator.w3.org/nu/?doc=https://scc.keto3kdesigns.com/it162/" target="_blank">Check HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p></div>
 </footer>
 <!-- END Footer --> 
 
